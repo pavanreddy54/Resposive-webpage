@@ -42,6 +42,7 @@
 }
 ul li a{
     text-decoration: none;
+    padding: 10px;
     color:black
 
 }#navbar{
@@ -54,13 +55,14 @@ ul li a{
     
     color: white;
     text-align: center;
-}.hi{
+}.bubble{
+    position: absolute;
+    z-index: -2;
     background-color: black;
     border-radius: 80px;
-    border-radius: 1px solid white;
+    border: 1px solid white;
     outline: 1px solid black;
-    
-}.hi a{
-    color: white;
+    /* transition: all 0.2s ease-in-out; */
+    /* animation: buton .2s ease-in-out .1s 1 normal ; */
+    transition: background-color 2s ease-out;
 }
-
