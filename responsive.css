@@ -5,7 +5,7 @@
 }nav{
     height: 80px;
     display: flex;
-
+    
 }
 #deslogo1{
     position: absolute;
@@ -61,8 +61,10 @@ ul li a{
     background-color: black;
     border-radius: 80px;
     border: 1px solid white;
-    outline: 1px solid black;
+    
     /* transition: all 0.2s ease-in-out; */
     /* animation: buton .2s ease-in-out .1s 1 normal ; */
     transition: background-color 2s ease-out;
+}.selected{
+    color:white;
 }
