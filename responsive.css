@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}nav{
+    height: 80px;
+    display: flex;
+
+}
+#deslogo1{
+    position: absolute;
+    top:1vh;
+    left: 1.6rem;
+    background-image: linear-gradient(rgb(35, 35, 211),rgb(234, 63, 228));
+    width: 7rem;
+    height: 7rem;
+    z-index: -1;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}#deslogo2{
+    position: absolute;
+    top:1vh;
+    left: 1.2rem;
+    background-color: rgb(138, 133, 133);
+    /* background-image: linear-gradient(rgb(35, 35, 211),rgb(234, 63, 228)); */
+    width: 7rem;
+    height: 7rem;
+    z-index: -2;
+    border-radius: 70% 30% 30% 70% / 30% 30% 70% 70% ;
+}
+.logo{
+    flex-grow: 5;
+    color: white;
+    padding: 2.6rem;
+}ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}ul li{
+    padding: .5rem;
+}
+ul li a{
+    text-decoration: none;
+    color:black
+
+}#navbar{
+
+}footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+}.hi{
+    background-color: black;
+    border-radius: 80px;
+    border-radius: 1px solid white;
+    outline: 1px solid black;
+    
+}.hi a{
+    color: white;
+}
+
